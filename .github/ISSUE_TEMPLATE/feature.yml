@@ -1,0 +1,18 @@
+name: Feature suggestion
+description: Something you would like Keyspan to do or do differently.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What would you like, and how would it help your practice?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Filled in by Keyspan when you report from the app (level, exercise number, keyboard, settings, browser, and a link that reopens the same exercise). Leave as is.
+      render: text

@@ -1,0 +1,24 @@
+name: A piece or its adaptation
+description: An interlude that differs from the real piece, a version that is too hard or too easy, credits.
+title: "[Interlude] "
+labels: [interlude]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is wrong or could be better?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Filled in by Keyspan when you report from the app (level, exercise number, keyboard, settings, browser, and a link that reopens the same exercise). Leave as is.
+      render: text
+  - type: textarea
+    id: abc
+    attributes:
+      label: Score (ABC notation)
+      description: Filled in by Keyspan. The exercise as ABC notation.
+      render: text

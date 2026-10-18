@@ -1,0 +1,24 @@
+name: Fingering or hand position
+description: A finger number that is wrong, missing or awkward; a hand position that does not fit.
+title: "[Fingering] "
+labels: [fingering]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Which note or bar, and what fingering would you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Filled in by Keyspan when you report from the app (level, exercise number, keyboard, settings, browser, and a link that reopens the same exercise). Leave as is.
+      render: text
+  - type: textarea
+    id: abc
+    attributes:
+      label: Score (ABC notation)
+      description: Filled in by Keyspan. The exercise as ABC notation.
+      render: text
